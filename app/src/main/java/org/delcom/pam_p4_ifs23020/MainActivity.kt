@@ -14,6 +14,7 @@ import org.delcom.pam_p4_ifs23020.ui.viewmodels.PlanetViewModel  // ← TAMBAH
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
+    
     private val plantViewModel: PlantViewModel by viewModels()
     private val planetViewModel: PlanetViewModel by viewModels()
 
